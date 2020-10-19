@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-RESOURCEGROUP=$(az group list --query [].name --output tsv)
+RESOURCEGROUP=appdev-migration-rg
 USERNAME=mslearnuser
 PASSWORD="Aa1#$(openssl rand -hex 5)"
 DEPLOYMENTNAME=ExerciseEnvironment
