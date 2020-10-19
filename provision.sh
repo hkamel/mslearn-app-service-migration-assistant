@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-RESOURCEGROUP=appdev-migration-rg
+RESOURCEGROUP=appdev-migration-europe-rg
 USERNAME=mslearnuser
 PASSWORD="Aa1#$(openssl rand -hex 5)"
 DEPLOYMENTNAME=ExerciseEnvironment
